@@ -1,5 +1,5 @@
 
-# Personal Profile Web Application
+# Csc584: Personal Profile Web
 
 ## Description
 This is a simple web application created for CSC584 Individual Assignment 1. Users can fill in a form with their personal information. After submitting the form, their information will be displayed on a profile page.
