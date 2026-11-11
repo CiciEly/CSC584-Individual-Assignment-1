@@ -2,7 +2,7 @@
 # Csc584: Personal Profile Web
 
 ## Description
-This is a simple web application created for CSC584 Individual Assignment 1. Users can fill in a form with their personal information. After submitting the form, their information will be displayed on a profile page.
+This is a simple web application created for CSC584 Individual Assignment 1. This web application allows users to enter their personal information using a form. After clicking the Submit button, the system processes the information using a Java Servlet and displays it on a profile page.
 
 ## Technologies Used
 - HTML
@@ -19,9 +19,8 @@ This is a simple web application created for CSC584 Individual Assignment 1. Use
 - Display information on a JSP page
 - Simple and attractive design using CSS
 
-
 ## How to Run
-1. Open NetBeans IDE 8.2.
+1. Open NetBeans IDE 8.2. apps
 2. Go to File > Open Project and select the downloaded project folder.
 3. Right-click the project and select Properties.
 4. Make sure Apache Tomcat is selected as the server.
