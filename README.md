@@ -1,5 +1,5 @@
 
-# Csc584: Personal Profile Web
+# CSC584: Personal Profile Web
 
 ## Description
 This is a simple web application created for CSC584 Individual Assignment 1. This web application allows users to enter their personal information using a form. After clicking the Submit button, the system processes the information using a Java Servlet and displays it on a profile page.
