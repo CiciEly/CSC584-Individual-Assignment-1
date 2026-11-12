@@ -10,7 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My Profile</title>
-
     <link rel="stylesheet" href="css/profile.css">
 
 </head>
@@ -18,29 +17,22 @@
 <body>
 
     <div class="page-container">
-
         <div class="profile-card">
 
             <!-- PROFILE HEADER -->
             <div class="profile-header">
-
                 <img src="image/profilee.png"
                      alt="Profile Picture"
                      class="profile-image">
-
                 <p class="subtitle">MY PERSONAL PROFILE</p>
-
                 <h1>Welcome,${name}</h1>
-
                 <p class="description">
                     HERE YOUR PERSONAL PROFILE INFORMATION
                 </p>
-
             </div>
 
             <!-- PROFILE INFORMATION -->
             <div class="profile-content">
-
                 <!-- FULL NAME -->
                 <div class="profile-item">
                     <span class="detail-label">FULL NAME</span>
@@ -81,17 +73,14 @@
 
             <!-- BACK BUTTON -->
             <a href="index.html" class="back-btn">
-                ← Back to Edit Profile
+                ← Back 
             </a>
 
             <!-- FOOTER -->
             <p class="footer-text">
-                 my personal profile ✦
+                 My Personal Profile ✦
             </p>
-
         </div>
-
     </div>
-
 </body>
 </html>

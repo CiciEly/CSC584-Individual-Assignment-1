@@ -1,13 +1,12 @@
-
 import java.io.IOException;
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
-@WebServlet("/profile")
+@WebServlet("/ProfileServlet") 
 public class ProfileServlet extends HttpServlet {
 
     @Override
@@ -26,16 +25,16 @@ public class ProfileServlet extends HttpServlet {
         String hobbies = request.getParameter("hobbies");
         String introduction = request.getParameter("introduction");
 
-        // Pass information to JSP page
-        request.setAttribute("name", name);
-        request.setAttribute("studentId", studentId);
-        request.setAttribute("programme", programme);
-        request.setAttribute("email", email);
-        request.setAttribute("hobbies", hobbies);
-        request.setAttribute("introduction", introduction);
+        // Store information in Session
+        HttpSession session = request.getSession();
+        session.setAttribute("name", name);
+        session.setAttribute("studentId", studentId);
+        session.setAttribute("programme", programme);
+        session.setAttribute("email", email);
+        session.setAttribute("hobbies", hobbies);
+        session.setAttribute("introduction", introduction);
 
-        // Forward to profile.jsp
-        request.getRequestDispatcher("profile.jsp")
-               .forward(request, response);
+        // Redirect browser to profile.jsp 
+        response.sendRedirect("profile.jsp");
     }
 }
